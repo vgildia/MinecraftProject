@@ -1,0 +1,23 @@
+name: BetterGameCore
+version: '${project.version}'
+main: org.example123.bettergamecore.BetterGameCore
+api-version: '1.18'
+commands:
+  gamma:
+    description: Nadaje graczowi Gamme
+    permission: BetterGameCore.Gamma
+  sprawdz:
+    description: sprawdzanie gracza
+    permission: BetterGameCore.Sprawdz
+  sprawdzczysty:
+    description: Gracz który nie posiada modyfikacij
+    permission: BetterGameCore.Sprawdz
+  setsprawdz:
+    description: ustawia sprawdzarke
+    permission: BetterGameCore.SetSprawdz
+  tempban:
+    description: daje bana na okreslony czas
+    permission: BetterGameCore.TempBan
+  przyznajesie:
+    description: przyznanie sie do posiadania niedozwolonych modyfikacij
+    permission: BetterGameCore.PrzyznajeSie
